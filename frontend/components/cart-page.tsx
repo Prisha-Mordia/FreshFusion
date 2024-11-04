@@ -54,7 +54,7 @@ export function CartPageComponent() {
 
   useEffect(() => {
     if (!suggestionContent) {
-      getReportUsingGemini("Based on the current food selection, {current_orders_selected: apple}, {sustainability_score:18}, {restaurant _distance_point:9}, {organic_point:3}, {packaging_material_point:3}, {leftover_point:3} give me the suggestion how can I improve my sustainability score, the nearest restaurant distance is {restaurant_name:Green Eats} {minimum_restaurant_distance:12}, {maximum_organic_point:16}, {corresponding_restaurant_name: Green Eats}, {maximum_packaging_point: 15}, {corresponding_restaurant_name: Green Eats}, {maximum_leftover_point: 15}, {corresponding_restaurant_name: Green Eats} and based on these suggest me how can I increase my sustainability point, keep in mind that the response will be addressed to {sexuality : transgender} and {pronouns : they/them}, so keep the response gender inclusive. 'PROMPT SHOULD BE 70 WORDS MAX'");
+      getReportUsingGemini("Based on the current food selection, {current_orders_selected: apple}, {sustainability_score:18}, {restaurant _distance_point:9}, {organic_point:3}, {packaging_material_point:3}, {leftover_point:3} give me the suggestion how can I improve my sustainability score, the nearest restaurant distance is {restaurant_name:Green Eats} {minimum_restaurant_distance:12}, {maximum_organic_point:16}, {corresponding_restaurant_name: Green Eats}, {maximum_packaging_point: 15}, {corresponding_restaurant_name: Green Eats}, {maximum_leftover_point: 15}, {corresponding_restaurant_name: Green Eats} and based on these suggest me how can I increase my sustainability point, keep the response gender inclusive. 'PROMPT SHOULD BE 70 WORDS MAX'");
     }
   }, [])
 
