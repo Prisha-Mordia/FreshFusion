@@ -71,7 +71,7 @@ export function ProfilePageComponent() {
   const generateReport = async () => {
     setIsGeneratingReport(true)
     setShowReport(true)
-    const reportData = await getReportUsingGemini("Based on the carbon footprint {user_carbon_footprint: 20} and past orders (seprate orders) {sustainability score : 25, distance_point : 18, organic_point:12, packaging: 13, leftovers: 14} for each orders generate a sustainability report as a table (with these columns - Metric	Your Score	Maximum Score	Interpretation), keep in mind that the response will be addressed to {sexuality : transgender} and {pronouns : they/them}, so keep the response gender inclusive.");
+    const reportData = await getReportUsingGemini("Based on the carbon footprint {user_carbon_footprint: 20} and past orders (seprate orders) {sustainability score : 25, distance_point : 18, organic_point:12, packaging: 13, leftovers: 14} for each orders generate a sustainability report as a table (with these columns - Metric	Your Score	Maximum Score	Interpretation), keep the response gender inclusive.");
     if (reportData) {
       setReportContent(reportData.response.text())
       setIsGeneratingReport(false)
