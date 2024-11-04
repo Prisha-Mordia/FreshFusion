@@ -97,3 +97,8 @@ Here’s a brief overview of each section of the FreshFusion platform:
 - **Order History & Points:** Track your sustainable dining journey with past orders and rewards points.
 
 ### Example Screenshots
+![image (2)](https://github.com/user-attachments/assets/31219865-bd78-4f0e-a633-ab1f57fdedaa)
+![image (3)](https://github.com/user-attachments/assets/5f3084bf-5757-4304-9093-e69f6138186c)
+![image (9)](https://github.com/user-attachments/assets/3c8b6c00-d3d2-43df-976c-5410a6dc3a18)
+![image (4)](https://github.com/user-attachments/assets/2413206b-bceb-4702-97f9-1c0b3251787a)
+![image-_4_](https://github.com/user-attachments/assets/73ce5d6e-22b7-47b8-abb3-0c42ef1552dd)
